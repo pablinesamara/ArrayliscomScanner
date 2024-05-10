@@ -12,7 +12,7 @@ public class Main {
         ArrayList<String>nomes= new ArrayList<String>();*/
         scan=new Scanner(System.in);
         ArrayList<Integer>idades=new ArrayList<Integer>();
-        for (int i=0;i<=idades.size();i++){
+        for (int i=0;i<10;i++){
             System.out.println("Digite o valor da posição : "+i);
             idades.add(scan.nextInt());
             System.out.println("ESTE É O MEU ARRAYLIST: "+idades);
